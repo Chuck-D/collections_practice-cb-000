@@ -21,4 +21,9 @@ end
 
 def kesha_maker(array)
   array.collect {|arr| arr[2]<<"$"}
+end
+
+def find_a(array)
+  
+end
 
