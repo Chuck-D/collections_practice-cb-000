@@ -27,3 +27,6 @@ def find_a(array)
   array.keep_if {|arr| arr[0]=="a"}
 end
 
+def sum_array(array)
+  array.
+
