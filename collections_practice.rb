@@ -29,6 +29,6 @@ end
 
 def sum_array(array)
   #array.inject(0){|sum,arr| sum+arr}# or just use array.sum
-  array.sum
+  
 end
 
