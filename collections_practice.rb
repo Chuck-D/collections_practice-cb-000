@@ -28,7 +28,9 @@ def find_a(array)
 end
 
 def sum_array(array)
-  #array.inject(0){|sum,arr| sum+arr}# or just use array.sum
+  #same as array.inject(0){|sum,arr| sum+arr}
   array.inject(0, :+)
 end
+
+
 
