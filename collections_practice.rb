@@ -33,6 +33,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect.except(arr[2]){|arr,index| arr<<"s"}
+  array.each_with_index.collect.except(array[2]){|arr,index| arr<<"s"}
 end
 
